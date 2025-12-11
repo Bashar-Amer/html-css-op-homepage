@@ -1,0 +1,21 @@
+nav{
+    height: 80px;
+    background-color: #222222;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-menu{
+    width: 24px;
+    height: 17px;
+    position: absolute;
+    top: 31px;
+    left: 24px;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}

@@ -1,0 +1,65 @@
+.brand-container {
+        width: 77%;
+        margin: 1.25rem auto;
+        padding: 10px;
+    }
+
+    .brand {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .brand-container span {
+        color: #8bc53f;
+    }
+
+   
+   .brand-container .desc {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #777;
+    }
+
+  .brand-container  .btn {
+        display: inline-block;
+        margin-top: 20px;
+        background-color: var(--main-color);
+        color: white;
+        padding:  10px 20px;
+        border-radius: 25px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-container .grid {
+        margin-top: 2.25rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.25rem 2.5rem;
+        text-align: center;
+    }
+
+    .brand-container .icon-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand-container .icon {
+        color: var(--main-color);
+        margin-bottom: 0.625rem;
+        height: 1.625rem;
+        width: 2rem;
+    }
+
+    .brand-container .label {
+        font-size: 0.875rem;
+        color: var(--black-color);
+        font-weight: 400;
+    }

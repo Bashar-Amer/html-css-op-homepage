@@ -1,0 +1,41 @@
+
+.cta {
+    background-color: #AAD300;
+    padding: 1.875rem 0.563rem; 
+    
+    /* Use Flexbox for vertical alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .content{
+    text-align: center;
+}
+
+.cta .text {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 21.375rem;
+    margin-bottom: 1.125rem;
+}
+
+
+.cta .logo {
+    height: 30px; 
+}
+
+.join-button {
+    margin-inline: auto;
+    background-color: white;
+    color: var(--black-color);
+    border: none;
+    padding: 0.75rem 2.375rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
